@@ -8,11 +8,12 @@ function printBadges() {
 }
 
 
-function coinToss() {
-  return Math.random() >= 0.5;
-}
+
 
 function tailsNeverFails(){
+  function coinToss() {
+    return Math.random() >= 0.5;
+  }
   let counter = 0;
   while(coinToss()) {
     counter++
