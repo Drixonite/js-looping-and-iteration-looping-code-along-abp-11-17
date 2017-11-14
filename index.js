@@ -3,6 +3,7 @@
 function printBadges(arrayNames) {
   arrayNames = [`Lisa`, `Kaitlin`, `Jan`]
   for (let i = 0; i < arrayNames.length; i++) {
+    i
     arrayNames[i]
     console.log(`Welcome ${array}! You are employee #${array+1}.`)
   }
