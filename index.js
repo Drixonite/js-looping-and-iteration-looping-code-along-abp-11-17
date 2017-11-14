@@ -1,19 +1,19 @@
 // Code your solutions in this file
-let employees = {`Lisa`, `Kaitlin`, `Jan`}
+// let employees = {`Lisa`, `Kaitlin`, `Jan`}
+// 
+// function printBadges() {
+//   for (var i = 0; i < employees.length; i++) {
+//     console.log(`Welcome ${employees}! You are employee #${i+1})`;
+//   }
+// }
 
-function printBadges() {
-  for (var i = 0; i < employees.length; i++) {
-    console.log(`Welcome ${employees}! You are employee #${i+1})`;
-  }
+
+
+function coinToss() {
+  return Math.random() >= 0.5;
 }
 
-
-
-
 function tailsNeverFails(){
-  function coinToss() {
-    return Math.random() >= 0.5;
-  }
   let counter = 0;
   while(coinToss()) {
     counter++
