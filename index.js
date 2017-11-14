@@ -1,11 +1,11 @@
 // Code your solutions in this file
-// let employees = {`Lisa`, `Kaitlin`, `Jan`}
-// 
-// function printBadges() {
-//   for (var i = 0; i < employees.length; i++) {
-//     console.log(`Welcome ${employees}! You are employee #${i+1})`;
-//   }
-// }
+
+
+function printBadges() {
+  for (let i = 0; i < array.length; i++) {
+    console.log(`Welcome ${array}! You are employee #${array+1}.`)
+  }
+}
 
 
 
