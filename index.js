@@ -5,7 +5,7 @@ function printBadges(arrayNames) {
   for (let i = 0; i < arrayNames.length; i++) {
     i
     arrayNames[i]
-    console.log(`Welcome ${array}! You are employee #${array+1}.`)
+    console.log(`Welcome ${arrayNames[i]}! You are employee #${i+1}.`)
   }
 }
 
