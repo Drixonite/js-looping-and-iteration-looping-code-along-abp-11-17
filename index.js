@@ -1,6 +1,6 @@
 // Code your solutions in this file
 
-const array = {`Lisa`, `Kaitlin`, `Jan`}
+const array = {`Lisa`, `Kaitlin`, `Jan`};
 
 function printBadges() {
   for (let i = 0; i < array.length; i++) {
