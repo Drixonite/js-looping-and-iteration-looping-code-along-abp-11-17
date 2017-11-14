@@ -1,7 +1,7 @@
 // Code your solutions in this file
 
 function printBadges(arrayNames) {
-  arrayNames = [`Lisa`, `Kaitlin`, `Jan`]
+  // arrayNames = [`Lisa`, `Kaitlin`, `Jan`]
   for (let i = 0; i < arrayNames.length; i++) {
     // i
     // arrayNames[i]
