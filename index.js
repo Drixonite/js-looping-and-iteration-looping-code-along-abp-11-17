@@ -1,5 +1,5 @@
 // Code your solutions in this file
-printBadges = [
+const printBadges = [
   
 ]
 
