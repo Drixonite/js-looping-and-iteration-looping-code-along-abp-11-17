@@ -1,5 +1,5 @@
 // Code your solutions in this file
-const printBadges = [`Lisa`, `Kaitlin`, `Jan`]
+const printBadges = {`Lisa`, `Kaitlin`, `Jan`}
 
 function printBadges() {
   for (var i = 0; i < printBadges.length; i++) {
